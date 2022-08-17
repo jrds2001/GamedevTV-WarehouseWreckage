@@ -1,0 +1,9 @@
+Binaries/
+Build/
+!Build/*/
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+Saved/
+Intermediate/
+Plugins/*/Intermediate/
+DerivedDataCache/
