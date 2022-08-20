@@ -1482,3 +1482,593 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.20-19.41.47:716][875]LogFileHelpers: Saving map 'Warehouse' took 0.047
 [2022.08.20-19.41.47:729][875]AssetCheck: New page: Asset Save: Warehouse
 [2022.08.20-19.41.47:729][875]LogContentValidation: Display: Validating World /Game/Warehouse.Warehouse
+[2022.08.20-19.47.01:737][937]LogMaterial: Display: Missing cached shadermap for MI_Rack01_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 64677BC5183CA4C11DAB0A3B296DFA7B52BE0F2E), compiling. 
+[2022.08.20-19.47.02:225][937]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.20-19.47.02:226][937]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.20-19.47.02:226][937]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_0
+[2022.08.20-19.47.06:339][ 88]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.20-19.47.06:339][ 88]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.20-19.47.06:341][ 88]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_2
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: ================================================
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Total job queries 262, among them cache hits 0 (0.00%)
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Tracking 10 distinct input hashes that result in 8 distinct outputs (80.00%)
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Shaders Compiled: 262
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Jobs assigned 90, completed 10 (11.11%)
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Time job spent in pending queue: average 2.19 s, longest 19.40 s
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Job execution time: average 19.37 s, max 19.37 s
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Job life time (pending + execution): average 19.40 s, max 19.40
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 19.40 s
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 10.00 jobs/batch
+[2022.08.20-19.47.21:556][656]LogShaderCompilers: Display: Average processing rate: 0.52 jobs/sec
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display: Effective parallelization: 0.61 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 2.97 sec, max 2.97 sec, min 2.97 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:               TBasePassVSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 2.36 sec, max 2.36 sec, min 2.36 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 2.00 sec, max 2.00 sec, min 2.00 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:                          TLightMapDensityVSFNoLightMapPolicy (compiled    1 times, average 1.26 sec, max 1.26 sec, min 1.26 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 1.03 sec, max 1.03 sec, min 1.03 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:                                             FDebugViewModePS - 24.98% of total time (compiled    1 times, average 2.97 sec, max 2.97 sec, min 2.97 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:               TBasePassVSFCachedVolumeIndirectLightingPolicy - 19.83% of total time (compiled    1 times, average 2.36 sec, max 2.36 sec, min 2.36 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.80% of total time (compiled    1 times, average 2.00 sec, max 2.00 sec, min 2.00 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:                          TLightMapDensityVSFNoLightMapPolicy - 10.60% of total time (compiled    1 times, average 1.26 sec, max 1.26 sec, min 1.26 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 8.70% of total time (compiled    1 times, average 1.03 sec, max 1.03 sec, min 1.03 sec)
+[2022.08.20-19.47.21:557][656]LogShaderCompilers: Display: ================================================
+[2022.08.20-19.49.19:499][ 41]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.49.19:499][ 41]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.49.19:499][ 41]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_3
+[2022.08.20-19.49.24:928][362]Cmd: TRANSACTION UNDO
+[2022.08.20-19.49.24:928][362]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.49.40:183][230]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.49.40:183][230]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.49.40:183][230]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_4
+[2022.08.20-19.49.42:991][393]Cmd: TRANSACTION UNDO
+[2022.08.20-19.49.42:991][393]LogEditorTransaction: Undo Add Component
+[2022.08.20-19.49.46:269][558]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.49.46:269][558]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.49.46:269][558]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_5
+[2022.08.20-19.49.55:135][ 63]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.49.55:135][ 63]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.49.55:135][ 63]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_6
+[2022.08.20-19.51.13:440][182]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel01.SM_Barrel01
+[2022.08.20-19.51.13:440][182]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel01.SM_Barrel01
+[2022.08.20-19.51.13:441][182]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel01.SM_Barrel01 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_7
+[2022.08.20-19.51.17:105][400]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel01.SM_Barrel01
+[2022.08.20-19.51.17:105][400]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel01.SM_Barrel01
+[2022.08.20-19.51.17:105][400]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel01.SM_Barrel01 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_8
+[2022.08.20-19.51.29:612][119]Cmd: EDIT COPY
+[2022.08.20-19.51.30:448][169]Cmd: EDIT PASTE
+[2022.08.20-19.51.55:534][590]Cmd: DELETE
+[2022.08.20-19.51.55:534][590]Cmd: ACTOR DELETE
+[2022.08.20-19.51.55:536][590]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.08.20-19.51.55:571][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.08.20-19.51.55:573][590]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2022.08.20-19.52.01:332][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02
+[2022.08.20-19.52.01:332][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02
+[2022.08.20-19.52.01:333][906]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_9
+[2022.08.20-19.52.02:860][997]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02
+[2022.08.20-19.52.02:860][997]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02
+[2022.08.20-19.52.02:861][997]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_10
+[2022.08.20-19.52.03:483][ 34]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02
+[2022.08.20-19.52.03:483][ 34]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02
+[2022.08.20-19.52.03:484][ 34]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel02.SM_Barrel02 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_11
+[2022.08.20-19.52.04:377][ 84]Cmd: DELETE
+[2022.08.20-19.52.04:377][ 84]Cmd: ACTOR DELETE
+[2022.08.20-19.52.04:378][ 84]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.08.20-19.52.04:407][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.08.20-19.52.04:408][ 84]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2022.08.20-19.52.06:269][165]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel03.SM_Barrel03
+[2022.08.20-19.52.06:270][165]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel03.SM_Barrel03
+[2022.08.20-19.52.06:270][165]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel03.SM_Barrel03 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_12
+[2022.08.20-19.52.09:214][296]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel03.SM_Barrel03
+[2022.08.20-19.52.09:214][296]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel03.SM_Barrel03
+[2022.08.20-19.52.09:214][296]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel03.SM_Barrel03 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_13
+[2022.08.20-19.53.13:550][946]Cmd: DELETE
+[2022.08.20-19.53.13:550][946]Cmd: ACTOR DELETE
+[2022.08.20-19.53.13:552][946]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.08.20-19.53.13:583][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.08.20-19.53.13:585][946]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2022.08.20-19.54.33:099][ 25]Cmd: EDIT COPY
+[2022.08.20-19.54.33:418][ 43]Cmd: EDIT PASTE
+[2022.08.20-19.54.35:886][182]Cmd: TRANSACTION UNDO
+[2022.08.20-19.54.35:886][182]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.54.39:714][395]Cmd: TRANSACTION UNDO
+[2022.08.20-19.54.39:714][395]LogEditorTransaction: Undo Paste Components
+[2022.08.20-19.55.08:111][953]Cmd: EDIT COPY
+[2022.08.20-19.55.18:098][465]Cmd: EDIT PASTE
+[2022.08.20-19.55.23:744][783]Cmd: EDIT PASTE
+[2022.08.20-19.55.45:477][872]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.20-19.55.45:484][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.20-19.55.45:484][872]PIE: New page: PIE session: Warehouse (Aug 20, 2022, 11:55:45 AM)
+[2022.08.20-19.55.45:484][872]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Warehouse
+[2022.08.20-19.55.45:491][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007397s)
+[2022.08.20-19.55.45:491][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse.Warehouse to /Game/UEDPIE_0_Warehouse.Warehouse (0.007522s)
+[2022.08.20-19.55.45:492][872]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.20-19.55.45:492][872]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.20-19.55.45:492][872]LogAIModule: Creating AISystem for world Warehouse
+[2022.08.20-19.55.45:493][872]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2022.08.20-19.55.45:525][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.08.20-19.55.45:526][872]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.08.20-19.55.45:526][872]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.20-19.55.45:526][872]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.20-19.55.45:526][872]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.20-19.55.45:526][872]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.20-19.55.45:526][872]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.20-19.55.45:526][872]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.20-19.55.45:526][872]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.20-19.55.45:526][872]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.20-19.55.45:527][872]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.20-19.55.45:527][872]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.20-19.55.45:527][872]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.20-19.55.45:529][872]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.20-19.55.45:560][872]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.08.20-19.55.45:561][872]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.20-19.55.45:561][872]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.20-19.55.45:561][872]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.20-19.55.45:563][872]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2022.08.20-19.55.45:563][872]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2022.08.20-19.55.45:565][872]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2022.08.20-19.55.45:565][872]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2022.08.20-19.55.45:565][872]LogInit: FAudioDevice initialized.
+[2022.08.20-19.55.45:565][872]LogAudio: Display: Audio Device (ID: 13) registered with world 'Warehouse'.
+[2022.08.20-19.55.45:581][872]LogLoad: Game class is 'GameModeBase'
+[2022.08.20-19.55.45:582][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:582][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:583][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:583][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:583][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:583][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:583][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:584][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:584][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:584][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:584][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:584][872]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.55.45:585][872]LogWorld: Bringing World /Game/UEDPIE_0_Warehouse.Warehouse up for play (max tick rate 60) at 2022.08.20-15.55.45
+[2022.08.20-19.55.45:585][872]LogWorld: Bringing up level for play took: 0.004019
+[2022.08.20-19.55.45:587][872]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2022.08.20-19.55.45:589][872]PIE: Server logged in
+[2022.08.20-19.55.45:590][872]PIE: Play in editor total start time 0.106 seconds.
+[2022.08.20-19.55.57:297][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-19.55.57:297][464]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Warehouse
+[2022.08.20-19.55.57:298][464]LogWorld: UWorld::CleanupWorld for Warehouse, bSessionEnded=true, bCleanupResources=true
+[2022.08.20-19.55.57:313][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-19.55.57:380][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.20-19.55.57:391][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-19.55.57:491][464]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.20-19.55.57:492][464]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.08.20-19.55.57:498][464]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.08.20-19.55.57:518][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-19.55.57:529][464]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2022.08.20-19.55.57:627][465]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.08.20-19.56.07:021][967]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.07:021][967]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.56.07:823][993]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.07:824][993]LogEditorTransaction: Undo Select Brush Surface
+[2022.08.20-19.56.08:586][ 30]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.08:586][ 30]LogEditorTransaction: Undo Select Brush Surface
+[2022.08.20-19.56.09:145][ 58]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.09:146][ 58]LogEditorTransaction: Undo Edit Simulate Physics
+[2022.08.20-19.56.09:532][ 78]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.09:532][ 78]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.56.09:957][ 96]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.09:957][ 96]LogEditorTransaction: Undo Edit Simulate Physics
+[2022.08.20-19.56.10:396][119]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.10:396][119]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.56.11:259][164]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.11:259][164]LogEditorTransaction: Undo Edit Simulate Physics
+[2022.08.20-19.56.11:629][182]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.11:629][182]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.56.11:874][191]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.11:874][191]LogEditorTransaction: Undo Edit Simulate Physics
+[2022.08.20-19.56.12:104][201]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.12:104][201]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.56.12:289][208]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.12:289][208]LogEditorTransaction: Undo Paste Components
+[2022.08.20-19.56.12:556][217]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.12:556][217]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.56.12:773][226]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.12:773][226]LogEditorTransaction: Undo Paste Components
+[2022.08.20-19.56.13:046][236]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.13:047][236]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.56.17:231][482]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.17:231][482]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.56.22:660][782]Cmd: EDIT COPY
+[2022.08.20-19.56.23:520][833]Cmd: EDIT PASTE
+[2022.08.20-19.56.26:674][919]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.26:674][919]LogEditorTransaction: Undo Paste
+[2022.08.20-19.56.44:419][930]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.44:419][930]LogEditorTransaction: Undo Remove Components
+[2022.08.20-19.56.44:793][934]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.44:793][934]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.56.45:570][973]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.45:570][973]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.56.46:828][ 45]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.46:828][ 45]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.56.49:961][220]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.49:961][220]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.56.53:922][440]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.53:923][440]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.56.57:041][474]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.57:042][474]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.56.58:466][520]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.58:466][520]LogEditorTransaction: Undo Paste Component(s)
+[2022.08.20-19.56.59:606][587]Cmd: TRANSACTION UNDO
+[2022.08.20-19.56.59:606][587]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.57.00:267][622]Cmd: TRANSACTION UNDO
+[2022.08.20-19.57.00:268][622]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.57.00:813][654]Cmd: TRANSACTION UNDO
+[2022.08.20-19.57.00:813][654]LogEditorTransaction: Undo Rename Component Variable
+[2022.08.20-19.57.02:270][740]Cmd: TRANSACTION REDO
+[2022.08.20-19.57.02:270][740]LogEditorTransaction: Redo Rename Component Variable
+[2022.08.20-19.57.53:667][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.20-19.57.53:672][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.20-19.57.53:672][ 48]PIE: New page: PIE session: Warehouse (Aug 20, 2022, 11:57:53 AM)
+[2022.08.20-19.57.53:672][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Warehouse
+[2022.08.20-19.57.53:678][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005757s)
+[2022.08.20-19.57.53:678][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse.Warehouse to /Game/UEDPIE_0_Warehouse.Warehouse (0.005853s)
+[2022.08.20-19.57.53:678][ 48]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.20-19.57.53:678][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.20-19.57.53:679][ 48]LogAIModule: Creating AISystem for world Warehouse
+[2022.08.20-19.57.53:679][ 48]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2022.08.20-19.57.53:707][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.08.20-19.57.53:708][ 48]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.08.20-19.57.53:708][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.20-19.57.53:708][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.20-19.57.53:708][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.20-19.57.53:708][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.20-19.57.53:708][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.20-19.57.53:708][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.20-19.57.53:708][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.20-19.57.53:708][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.20-19.57.53:709][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.20-19.57.53:709][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.20-19.57.53:709][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.20-19.57.53:712][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.20-19.57.53:739][ 48]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.08.20-19.57.53:739][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.20-19.57.53:739][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.20-19.57.53:739][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.20-19.57.53:741][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.08.20-19.57.53:741][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.08.20-19.57.53:743][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.08.20-19.57.53:743][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.08.20-19.57.53:743][ 48]LogInit: FAudioDevice initialized.
+[2022.08.20-19.57.53:743][ 48]LogAudio: Display: Audio Device (ID: 14) registered with world 'Warehouse'.
+[2022.08.20-19.57.53:753][ 48]LogLoad: Game class is 'GameModeBase'
+[2022.08.20-19.57.53:754][ 48]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.57.53:754][ 48]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.57.53:754][ 48]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.57.53:754][ 48]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.57.53:755][ 48]LogWorld: Bringing World /Game/UEDPIE_0_Warehouse.Warehouse up for play (max tick rate 60) at 2022.08.20-15.57.53
+[2022.08.20-19.57.53:755][ 48]LogWorld: Bringing up level for play took: 0.001675
+[2022.08.20-19.57.53:757][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2022.08.20-19.57.53:758][ 48]PIE: Server logged in
+[2022.08.20-19.57.53:759][ 48]PIE: Play in editor total start time 0.088 seconds.
+[2022.08.20-19.57.56:595][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-19.57.56:595][211]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Warehouse
+[2022.08.20-19.57.56:596][211]LogWorld: UWorld::CleanupWorld for Warehouse, bSessionEnded=true, bCleanupResources=true
+[2022.08.20-19.57.56:596][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-19.57.56:609][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.20-19.57.56:613][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-19.57.56:640][211]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.20-19.57.56:640][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.08.20-19.57.56:641][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.08.20-19.57.56:645][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-19.57.56:647][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.08.20-19.57.56:687][212]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.08.20-19.57.58:743][332]Cmd: DELETE
+[2022.08.20-19.57.58:743][332]Cmd: ACTOR DELETE
+[2022.08.20-19.57.58:745][332]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.08.20-19.57.58:776][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.08.20-19.57.58:778][332]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2022.08.20-19.58.00:556][438]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.00:556][438]LogEditorTransaction: Undo Delete Elements
+[2022.08.20-19.58.15:039][166]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.20-19.58.15:045][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.20-19.58.15:045][166]PIE: New page: PIE session: Warehouse (Aug 20, 2022, 11:58:15 AM)
+[2022.08.20-19.58.15:064][166]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Warehouse
+[2022.08.20-19.58.15:070][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005234s)
+[2022.08.20-19.58.15:070][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse.Warehouse to /Game/UEDPIE_0_Warehouse.Warehouse (0.005379s)
+[2022.08.20-19.58.15:070][166]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.20-19.58.15:070][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.20-19.58.15:071][166]LogAIModule: Creating AISystem for world Warehouse
+[2022.08.20-19.58.15:071][166]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2022.08.20-19.58.15:101][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.08.20-19.58.15:102][166]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.08.20-19.58.15:102][166]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.20-19.58.15:102][166]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.20-19.58.15:102][166]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.20-19.58.15:102][166]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.20-19.58.15:102][166]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.20-19.58.15:102][166]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.20-19.58.15:102][166]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.20-19.58.15:102][166]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.20-19.58.15:103][166]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.20-19.58.15:103][166]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.20-19.58.15:103][166]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.20-19.58.15:105][166]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.20-19.58.15:134][166]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.08.20-19.58.15:134][166]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.20-19.58.15:134][166]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.20-19.58.15:134][166]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.20-19.58.15:136][166]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.08.20-19.58.15:136][166]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.08.20-19.58.15:137][166]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.08.20-19.58.15:137][166]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.08.20-19.58.15:137][166]LogInit: FAudioDevice initialized.
+[2022.08.20-19.58.15:137][166]LogAudio: Display: Audio Device (ID: 15) registered with world 'Warehouse'.
+[2022.08.20-19.58.15:151][166]LogLoad: Game class is 'GameModeBase'
+[2022.08.20-19.58.15:152][166]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.58.15:152][166]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.58.15:152][166]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.58.15:152][166]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-19.58.15:152][166]LogWorld: Bringing World /Game/UEDPIE_0_Warehouse.Warehouse up for play (max tick rate 60) at 2022.08.20-15.58.15
+[2022.08.20-19.58.15:152][166]LogWorld: Bringing up level for play took: 0.001504
+[2022.08.20-19.58.15:154][166]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2022.08.20-19.58.15:155][166]PIE: Server logged in
+[2022.08.20-19.58.15:156][166]PIE: Play in editor total start time 0.112 seconds.
+[2022.08.20-19.58.29:175][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-19.58.29:175][  1]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Warehouse
+[2022.08.20-19.58.29:175][  1]LogWorld: UWorld::CleanupWorld for Warehouse, bSessionEnded=true, bCleanupResources=true
+[2022.08.20-19.58.29:176][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-19.58.29:190][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.20-19.58.29:194][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-19.58.29:222][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-19.58.29:222][  1]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.08.20-19.58.29:224][  1]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.08.20-19.58.29:231][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.08.20-19.58.29:277][  2]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.08.20-19.58.51:092][ 53]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.51:093][ 53]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.58.51:607][ 58]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.51:608][ 58]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.58.52:177][ 60]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.52:177][ 60]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.58.52:441][ 60]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.52:442][ 60]LogEditorTransaction: Undo Select Brush Surface
+[2022.08.20-19.58.52:681][ 61]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.52:681][ 61]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.52:909][ 63]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.52:909][ 63]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.53:126][ 72]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.53:127][ 72]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.58.53:400][ 72]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.53:400][ 72]LogEditorTransaction: Undo Select Brush Surface
+[2022.08.20-19.58.53:645][ 74]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.53:645][ 74]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.54:111][ 75]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.54:111][ 75]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.54:238][ 75]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.54:238][ 75]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.54:644][ 76]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.54:644][ 76]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.54:717][ 76]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.54:717][ 76]LogEditorTransaction: Undo Edit Mass (kg)
+[2022.08.20-19.58.55:043][ 78]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.55:044][ 78]LogEditorTransaction: Undo Edit Mass (kg)
+[2022.08.20-19.58.55:297][ 79]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.55:297][ 79]LogEditorTransaction: Undo Edit Condition Changed
+[2022.08.20-19.58.55:438][ 82]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.55:438][ 82]LogEditorTransaction: Undo Edit Simulate Physics
+[2022.08.20-19.58.55:727][ 88]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.55:727][ 88]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.55:961][ 97]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.55:961][ 97]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.58.56:181][101]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.56:181][101]LogEditorTransaction: Undo Select Brush Surface
+[2022.08.20-19.58.56:759][128]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.56:759][128]LogEditorTransaction: Undo Select Brush Surface
+[2022.08.20-19.58.57:181][147]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.57:181][147]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.57:518][161]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.57:518][161]LogEditorTransaction: Undo Rename Component Variable
+[2022.08.20-19.58.57:853][177]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.57:853][177]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.58:180][193]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.58:180][193]LogEditorTransaction: Undo Rename Component Variable
+[2022.08.20-19.58.58:506][211]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.58:506][211]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.58:778][221]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.58:778][221]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.59:031][231]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.59:031][231]LogEditorTransaction: Undo Rename Component Variable
+[2022.08.20-19.58.59:285][242]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.59:286][242]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.58.59:530][250]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.59:530][250]LogEditorTransaction: Undo Rename Component Variable
+[2022.08.20-19.58.59:784][261]Cmd: TRANSACTION UNDO
+[2022.08.20-19.58.59:784][261]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.00:022][268]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.00:022][268]LogEditorTransaction: Undo Rename Component Variable
+[2022.08.20-19.59.00:272][279]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.00:272][279]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.00:495][289]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.00:495][289]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.00:733][299]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.00:733][299]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.59.00:965][306]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.00:965][306]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.59.01:195][315]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.01:195][315]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.01:412][325]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.01:412][325]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.01:630][331]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.01:630][331]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.01:849][340]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.01:849][340]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.02:083][347]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.02:083][347]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.02:288][355]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.02:288][355]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.02:525][362]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.02:525][362]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.02:743][371]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.02:743][371]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.02:962][381]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.02:962][381]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.03:168][386]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.03:168][386]LogEditorTransaction: Undo Paste Component(s)
+[2022.08.20-19.59.03:373][394]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.03:373][394]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.03:598][404]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.03:598][404]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.59.03:960][407]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.03:960][407]LogEditorTransaction: Undo Select Brush Surface
+[2022.08.20-19.59.04:075][412]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.04:075][412]LogEditorTransaction: Undo Delete Elements
+[2022.08.20-19.59.04:327][425]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.04:327][425]LogEditorTransaction: Undo Create Actors
+[2022.08.20-19.59.04:531][437]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.04:531][437]LogEditorTransaction: Undo Delete Elements
+[2022.08.20-19.59.04:747][448]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.04:747][448]LogEditorTransaction: Undo Create Actors
+[2022.08.20-19.59.04:965][461]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.04:966][461]LogEditorTransaction: Undo Delete Elements
+[2022.08.20-19.59.05:179][472]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.05:179][472]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.59.05:417][481]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.05:417][481]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.05:637][491]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.05:637][491]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.05:846][500]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.05:846][500]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.59.06:122][513]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.06:122][513]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.06:339][526]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.06:339][526]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.59.06:545][533]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.06:545][533]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.06:815][546]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.06:815][546]LogEditorTransaction: Undo Paste Components
+[2022.08.20-19.59.07:044][554]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.07:044][554]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.07:277][565]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.07:277][565]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.07:491][574]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.07:491][574]LogEditorTransaction: Undo Clicking on Elements
+[2022.08.20-19.59.07:716][584]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.07:716][584]LogEditorTransaction: Undo Create Actors
+[2022.08.20-19.59.07:935][591]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.07:935][591]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.08:170][602]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.08:170][602]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.08:362][610]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.08:362][610]LogEditorTransaction: Undo Add Component
+[2022.08.20-19.59.08:597][623]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.08:597][623]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.08:828][631]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.08:828][631]LogEditorTransaction: Undo Remove Components
+[2022.08.20-19.59.09:047][637]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.09:047][637]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.09:267][643]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.09:267][643]LogEditorTransaction: Undo Add Component
+[2022.08.20-19.59.09:485][652]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.09:485][652]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.09:718][663]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.09:718][663]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2022.08.20-19.59.09:911][671]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.09:911][671]LogEditorTransaction: Undo Add Component
+[2022.08.20-19.59.10:148][684]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.10:148][684]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.10:398][699]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.10:398][699]LogEditorTransaction: Undo Move Elements
+[2022.08.20-19.59.10:732][719]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.10:732][719]LogEditorTransaction: Undo Rotate Elements
+[2022.08.20-19.59.11:032][737]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.11:032][737]LogEditorTransaction: Undo Create Actors
+[2022.08.20-19.59.12:379][816]Cmd: TRANSACTION REDO
+[2022.08.20-19.59.12:379][816]LogEditorTransaction: Redo Create Actors
+[2022.08.20-19.59.13:926][906]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.13:926][906]LogEditorTransaction: Undo Create Actors
+[2022.08.20-19.59.14:294][926]Cmd: TRANSACTION REDO
+[2022.08.20-19.59.14:294][926]LogEditorTransaction: Redo Create Actors
+[2022.08.20-19.59.17:193][ 93]Cmd: TRANSACTION UNDO
+[2022.08.20-19.59.17:193][ 93]LogEditorTransaction: Undo Create Actors
+[2022.08.20-19.59.25:961][581]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.20-19.59.25:961][581]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.20-19.59.25:961][581]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_15
+[2022.08.20-19.59.26:929][638]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.20-19.59.26:929][638]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.20-19.59.26:929][638]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_16
+[2022.08.20-19.59.39:843][317]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.59.39:843][317]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2022.08.20-19.59.39:843][317]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Warehouse.Warehouse:PersistentLevel.StaticMeshActor_17
+[2022.08.20-20.00.10:400][789]Cmd: EDIT PASTE
+[2022.08.20-20.00.13:900][952]Cmd: EDIT PASTE
+[2022.08.20-20.01.01:801][296]LogWindows: LaunchURL https://docs.unrealengine.com/5.0/en//BuildingWorlds/LevelEditor/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2022.08.20-20.01.17:091][ 31]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.20-20.01.17:097][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.20-20.01.17:098][ 31]PIE: New page: PIE session: Warehouse (Aug 20, 2022, 12:01:17 PM)
+[2022.08.20-20.01.17:125][ 31]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Warehouse
+[2022.08.20-20.01.17:131][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006007s)
+[2022.08.20-20.01.17:131][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse.Warehouse to /Game/UEDPIE_0_Warehouse.Warehouse (0.006130s)
+[2022.08.20-20.01.17:131][ 31]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.20-20.01.17:131][ 31]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.20-20.01.17:131][ 31]LogAIModule: Creating AISystem for world Warehouse
+[2022.08.20-20.01.17:132][ 31]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2022.08.20-20.01.17:166][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.08.20-20.01.17:168][ 31]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.08.20-20.01.17:168][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.20-20.01.17:168][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.20-20.01.17:168][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.20-20.01.17:168][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.20-20.01.17:168][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.20-20.01.17:168][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.20-20.01.17:168][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.20-20.01.17:168][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.20-20.01.17:168][ 31]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.20-20.01.17:168][ 31]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.20-20.01.17:168][ 31]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.20-20.01.17:170][ 31]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.20-20.01.17:201][ 31]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.08.20-20.01.17:202][ 31]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.20-20.01.17:202][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.20-20.01.17:202][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.20-20.01.17:203][ 31]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.08.20-20.01.17:204][ 31]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.08.20-20.01.17:205][ 31]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.08.20-20.01.17:205][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.08.20-20.01.17:205][ 31]LogInit: FAudioDevice initialized.
+[2022.08.20-20.01.17:205][ 31]LogAudio: Display: Audio Device (ID: 16) registered with world 'Warehouse'.
+[2022.08.20-20.01.17:220][ 31]LogLoad: Game class is 'GameModeBase'
+[2022.08.20-20.01.17:221][ 31]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-20.01.17:221][ 31]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-20.01.17:221][ 31]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-20.01.17:221][ 31]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-20.01.17:221][ 31]LogWorld: Bringing World /Game/UEDPIE_0_Warehouse.Warehouse up for play (max tick rate 60) at 2022.08.20-16.01.17
+[2022.08.20-20.01.17:221][ 31]LogWorld: Bringing up level for play took: 0.001463
+[2022.08.20-20.01.17:223][ 31]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2022.08.20-20.01.17:224][ 31]PIE: Server logged in
+[2022.08.20-20.01.17:226][ 31]PIE: Play in editor total start time 0.128 seconds.
+[2022.08.20-20.01.22:525][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-20.01.22:525][329]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Warehouse
+[2022.08.20-20.01.22:525][329]LogWorld: UWorld::CleanupWorld for Warehouse, bSessionEnded=true, bCleanupResources=true
+[2022.08.20-20.01.22:526][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-20.01.22:537][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.20-20.01.22:541][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-20.01.22:569][329]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.20-20.01.22:569][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.08.20-20.01.22:570][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.08.20-20.01.22:574][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-20.01.22:576][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.08.20-20.01.22:618][330]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.08.20-20.02.10:001][989]Cmd: EDIT COPY
+[2022.08.20-20.02.11:415][ 66]Cmd: EDIT PASTE
+[2022.08.20-20.02.19:807][526]Cmd: EDIT PASTE
+[2022.08.20-20.02.23:629][731]Cmd: EDIT PASTE
+[2022.08.20-20.02.52:622][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.08.20-20.02.52:645][ 41]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Warehouse_Auto1
+[2022.08.20-20.02.52:645][ 41]LogSavePackage: Moving '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Warehouse_Auto107D0226F4F078C15BFE44888D74CEAF6.tmp' to '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Autosaves/Game/Warehouse_Auto1.umap'
+[2022.08.20-20.02.52:649][ 41]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Warehouse' took 0.064
+[2022.08.20-20.02.52:649][ 41]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.064
+[2022.08.20-20.04.21:524][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.08.20-20.04.21:541][646]LogSavePackage: Moving output files for package: /Game/Warehouse
+[2022.08.20-20.04.21:542][646]LogSavePackage: Moving '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Warehouse643EBC3F486C048ADBF1F78905EE7726.tmp' to '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Content/Warehouse.umap'
+[2022.08.20-20.04.21:549][646]LogFileHelpers: No new changes to save!
+[2022.08.20-20.04.21:560][646]AssetCheck: New page: Asset Save: Warehouse
+[2022.08.20-20.04.21:561][646]LogContentValidation: Display: Validating World /Game/Warehouse.Warehouse
