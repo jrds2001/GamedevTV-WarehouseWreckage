@@ -910,3 +910,116 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.20-22.08.54:298][566]LogFileHelpers: No new changes to save!
 [2022.08.20-22.08.54:322][566]AssetCheck: New page: Asset Save: Warehouse
 [2022.08.20-22.08.54:322][566]LogContentValidation: Display: Validating World /Game/Warehouse.Warehouse
+[2022.08.20-22.19.35:912][800]LogEditorTransaction: Undo Add Node
+[2022.08.20-22.19.39:922][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.08.20-22.19.39:955][  1]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Warehouse_Auto1
+[2022.08.20-22.19.39:956][  1]LogSavePackage: Moving '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Warehouse_Auto1D95BFE854FEB09BBA8453CB9418B6A4D.tmp' to '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Autosaves/Game/Warehouse_Auto1.umap'
+[2022.08.20-22.19.39:958][  1]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Warehouse' took 0.073
+[2022.08.20-22.19.39:958][  1]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.073
+[2022.08.20-22.21.19:869][ 34]BlueprintLog: New page: Collapse to Function
+[2022.08.20-22.23.17:119][927]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UPrimitiveComponent::AddImpulse' [Element not found.]
+[2022.08.20-22.23.25:207][401]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'AActor::GetActorForwardVector' [The specified module could not be found.]
+[2022.08.20-22.25.35:637][790]BlueprintLog: New page: Collapse to Function
+[2022.08.20-22.26.17:915][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.08.20-22.26.17:950][131]LogSavePackage: Moving output files for package: /Game/Warehouse
+[2022.08.20-22.26.17:950][131]LogSavePackage: Moving '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Warehouse1B551B454E4950E5FD225C9249CEF3BD.tmp' to '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Content/Warehouse.umap'
+[2022.08.20-22.26.17:957][131]LogFileHelpers: No new changes to save!
+[2022.08.20-22.26.17:957][131]LogFileHelpers: Saving map 'Warehouse' took 0.078
+[2022.08.20-22.26.17:975][131]AssetCheck: New page: Asset Save: Warehouse
+[2022.08.20-22.26.17:975][131]LogContentValidation: Display: Validating World /Game/Warehouse.Warehouse
+[2022.08.20-22.26.19:996][253]BlueprintLog: New page: Compile Warehouse
+[2022.08.20-22.26.20:053][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.08.20-22.26.22:690][396]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.20-22.26.22:695][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.20-22.26.22:695][396]PIE: New page: PIE session: Warehouse (Aug 20, 2022, 2:26:22 PM)
+[2022.08.20-22.26.22:695][396]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Warehouse
+[2022.08.20-22.26.22:706][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010757s)
+[2022.08.20-22.26.22:706][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse.Warehouse to /Game/UEDPIE_0_Warehouse.Warehouse (0.010845s)
+[2022.08.20-22.26.22:706][396]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.20-22.26.22:706][396]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.20-22.26.22:707][396]LogAIModule: Creating AISystem for world Warehouse
+[2022.08.20-22.26.22:707][396]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2022.08.20-22.26.22:740][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.08.20-22.26.22:741][396]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.08.20-22.26.22:741][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.20-22.26.22:741][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.20-22.26.22:741][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.20-22.26.22:741][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.20-22.26.22:741][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.20-22.26.22:741][396]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.20-22.26.22:741][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.20-22.26.22:741][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.20-22.26.22:742][396]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.20-22.26.22:742][396]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.20-22.26.22:742][396]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.20-22.26.22:744][396]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.20-22.26.22:768][396]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.08.20-22.26.22:769][396]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.20-22.26.22:769][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.20-22.26.22:769][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.20-22.26.22:770][396]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.08.20-22.26.22:770][396]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.08.20-22.26.22:771][396]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.08.20-22.26.22:771][396]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.08.20-22.26.22:771][396]LogInit: FAudioDevice initialized.
+[2022.08.20-22.26.22:771][396]LogAudio: Display: Audio Device (ID: 4) registered with world 'Warehouse'.
+[2022.08.20-22.26.22:785][396]LogLoad: Game class is 'GameModeBase'
+[2022.08.20-22.26.22:786][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:786][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:786][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:787][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:787][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:787][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:787][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:787][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:787][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:788][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:788][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:788][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:788][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:788][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:788][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:788][396]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.20-22.26.22:791][396]LogWorld: Bringing World /Game/UEDPIE_0_Warehouse.Warehouse up for play (max tick rate 60) at 2022.08.20-18.26.22
+[2022.08.20-22.26.22:792][396]LogWorld: Bringing up level for play took: 0.006067
+[2022.08.20-22.26.22:793][396]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2022.08.20-22.26.22:795][396]PIE: Server logged in
+[2022.08.20-22.26.22:795][396]PIE: Play in editor total start time 0.1 seconds.
+[2022.08.20-22.26.49:155][957]LogBlueprintUserMessages: [Warehouse_C_4] OUT OF AMMO
+[2022.08.20-22.26.49:288][965]LogBlueprintUserMessages: [Warehouse_C_4] OUT OF AMMO
+[2022.08.20-22.26.49:438][974]LogBlueprintUserMessages: [Warehouse_C_4] OUT OF AMMO
+[2022.08.20-22.26.49:554][981]LogBlueprintUserMessages: [Warehouse_C_4] OUT OF AMMO
+[2022.08.20-22.26.49:688][989]LogBlueprintUserMessages: [Warehouse_C_4] OUT OF AMMO
+[2022.08.20-22.26.52:408][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-22.26.52:408][150]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Warehouse
+[2022.08.20-22.26.52:408][150]LogWorld: UWorld::CleanupWorld for Warehouse, bSessionEnded=true, bCleanupResources=true
+[2022.08.20-22.26.52:411][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-22.26.52:425][150]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.20-22.26.52:430][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.20-22.26.52:462][150]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.20-22.26.52:463][150]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.08.20-22.26.52:465][150]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.08.20-22.26.52:468][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.20-22.26.52:472][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.08.20-22.26.52:500][151]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.08.20-22.27.02:032][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.08.20-22.27.02:066][715]LogSavePackage: Moving output files for package: /Game/Warehouse
+[2022.08.20-22.27.02:067][715]LogSavePackage: Moving '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Warehouse18B6B97E4C75996B0983A9B14021A55D.tmp' to '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Content/Warehouse.umap'
+[2022.08.20-22.27.02:073][715]LogFileHelpers: No new changes to save!
+[2022.08.20-22.27.02:073][715]LogFileHelpers: Saving map 'Warehouse' took 0.075
+[2022.08.20-22.27.02:089][715]AssetCheck: New page: Asset Save: Warehouse
+[2022.08.20-22.27.02:089][715]LogContentValidation: Display: Validating World /Game/Warehouse.Warehouse
+[2022.08.20-22.27.18:322][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.08.20-22.27.18:356][167]LogSavePackage: Moving output files for package: /Game/Warehouse
+[2022.08.20-22.27.18:356][167]LogSavePackage: Moving '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Warehouse8297F2A242E085BA1F9D1C8AAA0B1205.tmp' to '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Content/Warehouse.umap'
+[2022.08.20-22.27.18:363][167]LogFileHelpers: No new changes to save!
+[2022.08.20-22.27.18:363][167]LogFileHelpers: Saving map 'Warehouse' took 0.076
+[2022.08.20-22.27.18:378][167]AssetCheck: New page: Asset Save: Warehouse
+[2022.08.20-22.27.18:378][167]LogContentValidation: Display: Validating World /Game/Warehouse.Warehouse
+[2022.08.20-22.27.59:421][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.08.20-22.27.59:455][369]LogSavePackage: Moving output files for package: /Game/Warehouse
+[2022.08.20-22.27.59:455][369]LogSavePackage: Moving '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Saved/Warehouse9836BDA848FD6F5C15FBB3919F10F1B2.tmp' to '../../../../../../Users/jrds2/Documents/Udemy C++ Unreal Projects/GamedevTV-WarehouseWreckage/WarehouseWreckage/Content/Warehouse.umap'
+[2022.08.20-22.27.59:461][369]LogFileHelpers: No new changes to save!
+[2022.08.20-22.27.59:462][369]LogFileHelpers: Saving map 'Warehouse' took 0.073
+[2022.08.20-22.27.59:475][369]AssetCheck: New page: Asset Save: Warehouse
+[2022.08.20-22.27.59:475][369]LogContentValidation: Display: Validating World /Game/Warehouse.Warehouse
